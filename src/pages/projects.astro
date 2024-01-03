@@ -3,49 +3,83 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title = "Projects and Studies" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Sports</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+  title="Pythia"
+  img="/post_img.webp"
+  desc="The project aimed to assist athletes with information on doping in partnership with the Brazilian Olympic Committee (COB). To fulfill this goal, we created a conversational chatbot that interacts directly with athletes. This chatbot, currently operational on the COB's website, provides vital guidance and clarification on doping-related issues, ensuring athletes have immediate access to essential information for their training and competition preparations."
+  url="#"
+  badge="NEW"
   />
 
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+  title="Heracles"
+  img="/post_img.webp"
+  desc="This project, in partnership with the Brazilian Olympic Committee (COB), focuses on analyzing behavior on social media regarding the use of performance-enhancing substances. Our aim is to understand the patterns and perceptions related to the use of these substances as discussed in social media platforms. By leveraging advanced data analysis techniques, we seek to gain insights into how performance-enhancing drugs are perceived in the athletic community, potentially influencing policy and educational initiatives around doping in sports"
+  url="#"
+  badge="NEW"
+  />
+
+
+
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Health</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+  title="Xray Covid-19"
+  img="/post_img.webp"
+  desc="Xray-Covid is a software tool developed by Leandro Alvim, Filipe Braida and his team of ATIS-Labs (Advanced Technology Laboratory in Intelligent Systems) along with other professors from the Department of Computer Science. The tool uses artificial intelligence to assist in the diagnosis of Covid-19 through the analysis of chest X-rays. The software has been registered with the National Institute of Industrial Property (INPI) and is one of three computer programs developed by the team."
+  url="#"
+  badge="CONCLUDED"
+/>
+
+
+<div>
+  <div class="text-3xl w-full font-bold mb-5 mt-10">Digital Law</div>
+</div>
+
+<HorizontalCard
+title="Islands, Archipelagos or Continents? An Analysis of the Geography of the Federal Supreme Court"
+img="/post_img.webp"
+desc="This study investigates the dissent patterns among the justices of the Brazilian Supreme Federal Court using machine learning techniques and natural language processing, combined with data science analysis. This research introduces a novel focus: it explores the implicit decision-making patterns in the voting scores related to Habeas Corpus petitions judged by the Court's plenary, comparing these with the decisions made in Direct Actions of Unconstitutionality between 2011 and 2022. The investigations were segmented into four temporal sections, aiming to identify patterns and ideological, legal, or strategic groupings among the analyzed justices, using the main rulings from both classes of legal proceedings as the data source. The conclusions of the study confirmed the hypothesis that the Court exhibits similar dissent patterns even in very distinct procedural classes. This finding offers a unique insight into the decision-making dynamics of the highest court in Brazil, with implications for understanding judicial behavior and processes."
+url="https://tede.ufrrj.br/jspui/handle/jspui/6538"
+badge="CONCLUDED"
+/>
+
+
+<div>
+  <div class="text-3xl w-full font-bold mb-5 mt-10">Hate Speech</div>
+</div>
+
+<HorizontalCard
+title="Hate, prejudice and conspiracy theories: the reality from the ideological perspective of Brazilian imageboard users"
+img="/post_img.webp"
+desc="This study investigates the prevalence of bigotry on imageboards within the Brazilian context, using natural language processing to analyze the discursive features of large text sets. It highlights how these platforms, favored for their anonymity and community engagement, become breeding grounds for hateful ideologies, conspiracy theories, and expressions of anger. The study reveals that Brazilian imageboards not only reflect deeply rooted prejudices but also incorporate conspiratorial and bigoted views from international sources."
+url=""
+badge="CONCLUDED"
+/>
+
+<div>
+  <div class="text-3xl w-full font-bold mb-5 mt-10">Bias and Fairness</div>
+</div>
+
+<HorizontalCard
+title="Understanding Fairness and Bias"
+img="/post_img.webp"
+desc="Studies focused on the development of fair algorithms and bias metrics. Also investigates Large Language Models (LLMs) and their inherent biases."
+url=""
+badge="NEW"
+/>
+
+
+
+
+
 </BaseLayout>
