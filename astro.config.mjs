@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://lalvim.github.io',
-  base: '/astrofy-cv',
+  base: '/lalvim.github.io',
   integrations: [mdx(), sitemap(), tailwind()]
 });
