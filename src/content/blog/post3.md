@@ -4,5 +4,5 @@ description: "Hoje o professor Leandro Alvim em conjunto com o professor Filipe 
 pubDate: "Oct 17 2023"
 heroImage: "/SNCT_2023.jpg"
 tags: ["SNCT"]
-url: "https://cursos.ufrrj.br/grad/cc-ni/professor-da-ufrrj-leandro-alvim-aborda-fundamentos-de-inteligencia-artificial-em-palestra-remota-para-grupo-de-pesquisa-mulheres-no-direito-digital-e-nas-novas-tecnologias/"
+url: "https://cursos.ufrrj.br/grad/cc-ni/apresentacao-do-professor-leandro-alvim-na-snct/"
 ---
