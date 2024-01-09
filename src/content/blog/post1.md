@@ -4,5 +4,5 @@ description: "A UFRRJ assinou, na terça-feira (22/8), Acordo de Cooperação co
 pubDate: "Aug 22 2023"
 heroImage: "/COB_2023_07_22.jpg"
 tags: ["cob"]
-slug: "https://portal.ufrrj.br/rural-assina-acordo-com-o-cob/"
-
+url: "https://portal.ufrrj.br/rural-assina-acordo-com-o-cob/"
+---
