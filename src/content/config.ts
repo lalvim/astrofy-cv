@@ -12,6 +12,19 @@ const blogSchema = z.object({
     }).optional(),
 });
 
+const seminarSchema = z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.coerce.date(),
+    updatedDate: z.string().optional(),
+    heroImage: z.string().optional(),
+    badge: z.string().optional(),
+    url: z.string().optional(),
+    tags: z.array(z.string()).refine(items => new Set(items).size === items.length, {
+        message: 'tags must be unique',
+    }).optional(),
+});
+
 const storeSchema = z.object({
     title: z.string(),
     description: z.string(),
@@ -25,13 +38,16 @@ const storeSchema = z.object({
     heroImage: z.string().optional(),
 });
 
+export type SeminarSchema = z.infer<typeof seminarSchema>;
 export type BlogSchema = z.infer<typeof blogSchema>;
 export type StoreSchema = z.infer<typeof storeSchema>;
 
+const seminarCollection = defineCollection({ schema: seminarSchema });
 const blogCollection = defineCollection({ schema: blogSchema });
 const storeCollection = defineCollection({ schema: storeSchema });
 
 export const collections = {
+    'seminar': seminarCollection,
     'blog': blogCollection,
     'store': storeCollection
 }
